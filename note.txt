@@ -1,0 +1,42 @@
+﻿1. Home -> 70% (edit lại slider)
+2. VN SQUAD -> legend chưa add data player (chỉnh lại cho dễ nhìn , kiếm ảnh vd: fifa Online 4)
+   https://vietnam.fo4.garena.vn/
+   https://www.facebook.com/minifacefo4chat/photos/a.1130082300789084/1131280617335919
+3. News -> (trình có thể edit lại đc) -> ko đc thì css
+4. Shop + collections add thêm products (thêm size & quantity khi click "Add to cart"), add 3 ảnh (done)
+   Related product: min 5 sản phẩm trở lên / 1 đối tượng
+5. Cart page (chưa hoàn thành) 
+6. Tickets chưa 
+7. Contact chưa cần thiết, Tks bay icon
+8. Chỉnh lại header (cart) + mobile responsive + link nav mobile
+9. Detail cầu thủ giống Park dạng slider
+
+-> 30, 31, 1, 2: Trình hoàn thành 4. 5. 6.
+-> 30, 31, 1, 2: Tùng CSS lại 1. 2. 3. 9.
+
+- Frontend:
+	+ create page: css user info, player details.
+	+ update: validate input form
+- Backend:
+	+ Update data slider/page
+	+ Update data News (format follow word form)
+	+ DB: update foreign key and relationship for tables
+
+
+* Trình:
+- 
+- link mobile menu (done)
+- xoá order, xoá data order cũ (sau khi hoàn thành check chuỗi thao tác mua hàng)
+- Add manage title (last)
+- Product detail: custom edit quantity, backend validate discount
+
+- Backend 
+
+Nam:
+1. fix New bị lỗi (chờ fix) (các bài báo bị lặp lại)
+5. fix login page của checkout khi shopping (chỉnh cho nhỏ lại cái login)
+6. làm slide BE (cần check)
+2. add data player detail (done)
+3. fix css ticket page (done) 
+4. add data ticket page (done)
+7. fix the ticket part of home page (done)

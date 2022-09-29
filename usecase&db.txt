@@ -1,0 +1,169 @@
+﻿1/ account; 2/ player; 3/ product; 4/ match; 5/ ticket.
+
+USE CASE:
+*Actor:
+- Guest User
+- Customer User
+- Admin User
+- Paypal
+*Use case:
+- Guest User:
++ Sign up
++ Sign in
++ View page, items
++ Search
++ Checkout
++ Payment:
+	- Enter info
+	- Sign up
+	- Sign in
+- Customer User:
++ View page, items
++ Search
++ Checkout
++ Payment
++ Sign out
+- Admin User:
++ Sign in
++ View admin page, items
++ Search
++ manage user
++ manage player
++ manage product
++ manage match
++ manage ticket
++ manage gallery
++ manage background
++ Sign out
+
+DATABASE:
+
+- User:
++ id
++ role
++ email
++ password
++ create time
++ create by
++ update time
++ update by
+
+- User detail:
++ id
++ id user
++ name
++ birth
++ address
++ zip code
++ bank card
+
+- User data
++ recently product
++ recently post
+
+- Cart:
++ id
++ id user
++ count
++ total price
++ 
++ create time
++ create by
++ update time
++ update by
+
+- Player:
++ id
++ create time
++ create by
++ update time
++ update by
+
+- Product:
++ id
++ title
++ price
++ img1
++ img2
++ img3
++ size (watch yt)
++ shipping
++ details
++ description
++ quantity
++ create time
++ create by
++ update time
++ update by
+
+- Post:
++ id
++ tag
++ title
++ content
++ img
++ area
++ create time
++ create by
++ update time
++ update by
+
+- Team:
++ id
++ team_name
++ team_image
++ squad
++ timestamp
+
+- Tournament:
++ id
++ tournament_name
++ tournament_image
++ status
++ timestamp
+
+- Match:
++ id
++ tournament_id
++ type
++ squad
++ teamA_id
++ teamB_id
++ stadium
++ stadium_background
++ ticket(yes/no)
++ datetime
++ timestamp
+
+- TicketPrice:
++ id
++ match_id
++ class1
++ class2
++ class3
++ class4
+(option set default price)
+
+- Ticket:
++ id
++ match_id
++ status
++ stand (4 fixed: A,B,C,D)
++ stair (2 fixed: 2,5)
++ door (stair 5: 8; stair 2: 10)
++ seat (124 fixed: 10[A-J]x14 - 4[C-F]x4[6-9])
++ class (1,2,3,4,0)
+=> 6516 ticket for sales
+=> 6994 ticket for calculation
+
+- (num) id
+- (num) player_id
+- (text) img
+- (num) appearance
+- (num) total_goals
+- (num) trophies
+- (text) bio
+- (year) joined
+- (date) first_match
+- (text) first_concurrent
+- statist thống kê
