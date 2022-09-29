@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th9 10, 2022 lúc 02:02 AM
+-- Thời gian đã tạo: Th9 29, 2022 lúc 09:28 AM
 -- Phiên bản máy phục vụ: 10.4.24-MariaDB
 -- Phiên bản PHP: 8.1.6
 
@@ -332,11 +332,11 @@ CREATE TABLE `tbl_match` (
 --
 
 INSERT INTO `tbl_match` (`id`, `squad`, `teamA_id`, `teamB_id`, `tournament_id`, `type`, `stadium`, `stadium_background`, `ticket`, `datetime`, `teamA_goals`, `teamB_goals`) VALUES
-(1, 1, 1, 3, 1, 'Friendly Match', 'My Dinh National Stadium', '22102021_Var-MyDinh-382.jpg', 0, '2022-09-15 11:30:00', 0, 0),
-(3, 1, 1, 3, 5, 'Kick off UTC+7', 'Milliy Stadium', 'Milliy_Stadium.png', 1, '2022-09-12 11:00:00', 0, 0),
+(1, 1, 1, 3, 1, 'Friendly Match', 'My Dinh National Stadium', '22102021_Var-MyDinh-382.jpg', 0, '2023-09-15 11:30:00', 0, 0),
+(3, 1, 1, 3, 5, 'Kick off UTC+7', 'Milliy Stadium', 'Milliy_Stadium.png', 1, '2023-09-12 11:00:00', 0, 0),
 (4, 1, 1, 3, 6, '90\'+3', 'My Dinh Stadium', '22102021_Var-MyDinh-3548.jpg', 0, '2022-05-03 10:00:00', 1, 0),
 (5, 1, 1, 6, 6, '90\'+1', 'Viet Tri Stadium', 'SvdVietTri533.jpg', 0, '2022-05-19 11:00:00', 0, 0),
-(6, 1, 2, 1, 2, 'Kick off UTC+7', 'Lokomotiv Stadium', 'Moscow_Lokomotiv_Stadium.jpg', 0, '2022-09-15 06:00:00', 0, 0);
+(6, 1, 2, 1, 2, 'Kick off UTC+7', 'Lokomotiv Stadium', 'Moscow_Lokomotiv_Stadium.jpg', 0, '2023-09-15 06:00:00', 0, 0);
 
 -- --------------------------------------------------------
 
